@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Application should render the app 1`] = `
+<DocumentFragment>
+  <button
+    class="square"
+  >
+    X
+  </button>
+</DocumentFragment>
+`;
