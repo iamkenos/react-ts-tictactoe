@@ -9,7 +9,7 @@ describe("Square Component", () => {
   });
 
   function givenRenderSquareComponent() {
-    const { asFragment } = render(<Square />);
+    const { asFragment } = render(<Square value={""}/>);
     fragment = asFragment();
   }
 
