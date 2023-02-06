@@ -9,7 +9,8 @@ describe("Square Component", () => {
   });
 
   function givenRenderSquareComponent() {
-    const { asFragment } = render(<Square value={""}/>);
+    const handleSquareClick = () => {};
+    const { asFragment } = render(<Square value="" onSquareClick={handleSquareClick}/>);
     fragment = asFragment();
   }
 
